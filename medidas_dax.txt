@@ -1,0 +1,149 @@
+=========================================================================
+MEDIDAS DAX - DASHBOARD DE VENDAS STAR SCHEMA (POWER BI)
+
+Instruções:
+1. No Power BI, crie uma Tabela de Medidas (Página Inicial > Especificar Dados > Nome: "_Medidas").
+2. Clique com o botão direito na tabela "_Medidas" e selecione "Nova Medida".
+3. Copie e cole cada bloco DAX abaixo.
+=========================================================================
+
+--- 1. MÉTRICAS PRINCIPAIS DE FATURAMENTO & RECEITA ---
+
+Faturamento Total = 
+SUM(fato_vendas[valor_total])
+
+Faturamento Bruto = 
+SUMX(fato_vendas, fato_vendas[quantidade] * fato_vendas[preco_unitario])
+
+Total Descontos (R$) = 
+SUMX(fato_vendas, (fato_vendas[quantidade] * fato_vendas[preco_unitario]) - fato_vendas[valor_total])
+
+Desconto Médio % = 
+AVERAGE(fato_vendas[desconto_pct])
+
+
+--- 2. MÉTRICAS DE CUSTO, LUCRO & MARGEM ---
+
+Custo Total = 
+SUM(fato_vendas[custo_total])
+
+Lucro Total = 
+SUM(fato_vendas[lucro_total])
+
+Margem % = 
+DIVIDE(
+    [Lucro Total],
+    [Faturamento Total],
+    0
+)
+
+
+--- 3. MÉTRICAS DE VOLUME, PEDIDOS & TICKET MÉDIO ---
+
+Total Pedidos = 
+DISTINCTCOUNT(fato_vendas[id_venda])
+
+Quantidade Itens Vendidos = 
+SUM(fato_vendas[quantidade])
+
+Ticket Médio = 
+DIVIDE(
+    [Faturamento Total],
+    [Total Pedidos],
+    0
+)
+
+Preço Médio por Item = 
+DIVIDE(
+    [Faturamento Total],
+    [Quantidade Itens Vendidos],
+    0
+)
+
+
+--- 4. ANÁLISE POR CANAL DE VENDA (VENDAS POR CANAL) ---
+
+% Faturamento por Canal = 
+DIVIDE(
+    [Faturamento Total],
+    CALCULATE([Faturamento Total], ALL(fato_vendas[canal_venda])),
+    0
+)
+
+Faturamento Website = 
+CALCULATE(
+    [Faturamento Total],
+    fato_vendas[canal_venda] = "Website"
+)
+
+Faturamento B2B Direto = 
+CALCULATE(
+    [Faturamento Total],
+    fato_vendas[canal_venda] = "Venda Direta / B2B"
+)
+
+Faturamento E-commerce = 
+CALCULATE(
+    [Faturamento Total],
+    fato_vendas[canal_venda] = "E-commerce"
+)
+
+Faturamento Parceiros = 
+CALCULATE(
+    [Faturamento Total],
+    fato_vendas[canal_venda] = "Parceiros / Distribuidores"
+)
+
+
+--- 5. INTELIGÊNCIA DE TEMPO (TIME INTELLIGENCE) ---
+
+Faturamento Ano Anterior (LY) = 
+CALCULATE(
+    [Faturamento Total],
+    SAMEPERIODLASTYEAR(dim_calendario[data])
+)
+
+Crescimento YoY (R$) = 
+[Faturamento Total] - [Faturamento Ano Anterior (LY)]
+
+Crescimento YoY % = 
+DIVIDE(
+    [Crescimento YoY (R$)],
+    [Faturamento Ano Anterior (LY)],
+    0
+)
+
+Faturamento YTD = 
+TOTALYTD(
+    [Faturamento Total],
+    dim_calendario[data]
+)
+
+Faturamento MTD = 
+TOTALMTD(
+    [Faturamento Total],
+    dim_calendario[data]
+)
+
+
+--- 6. ANÁLISE DE CLIENTES & VENDEDORES ---
+
+Total Clientes Ativos = 
+DISTINCTCOUNT(fato_vendas[id_cliente])
+
+Faturamento Médio por Cliente = 
+DIVIDE(
+    [Faturamento Total],
+    [Total Clientes Ativos],
+    0
+)
+
+Meta Total Vendedores = 
+SUM(dim_vendedores[meta_mensal])
+
+Atingimento Meta % = 
+DIVIDE(
+    [Faturamento Total],
+    [Meta Total Vendedores],
+    0
+)

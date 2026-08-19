@@ -1,0 +1,151 @@
+﻿id_cliente,nome_cliente,tipo_cliente,segmento,cidade,estado,regiao
+1,Ana Rodrigues,B2C,Consumidor Final,Campinas,SP,Sudeste
+2,AlphaMidia S.A.,B2B,Indústria,Belo Horizonte,MG,Sudeste
+3,Carlos Gomes,B2C,Consumidor Final,Goiânia,GO,Centro-Oeste
+4,TechSolutions S.A.,B2B,Financeiro,São Paulo,SP,Sudeste
+5,EcoVida S.A.,B2B,Educação,Goiânia,GO,Centro-Oeste
+6,BlueOcean Tech,B2B,Financeiro,Fortaleza,CE,Nordeste
+7,NexusCorp S.A.,B2B,Financeiro,Salvador,BA,Nordeste
+8,Lucas Rodrigues,B2C,Consumidor Final,Florianópolis,SC,Sul
+9,CoreBiz Brasil,B2B,Tecnologia,Belo Horizonte,MG,Sudeste
+10,InovaGlobal Brasil,B2B,Varejo,Florianópolis,SC,Sul
+11,Ana Pereira,B2C,Consumidor Final,Curitiba,PR,Sul
+12,Fernanda Santos,B2C,Consumidor Final,Campinas,SP,Sudeste
+13,Lucas Gomes,B2C,Consumidor Final,Curitiba,PR,Sul
+14,InovaGlobal S.A.,B2B,Indústria,Fortaleza,CE,Nordeste
+15,NexusCorp S.A.,B2B,Financeiro,Manaus,AM,Norte
+16,NexusCorp Tech,B2B,Indústria,Florianópolis,SC,Sul
+17,OmniGroup Brasil,B2B,Financeiro,Rio de Janeiro,RJ,Sudeste
+18,Carlos Gomes,B2C,Consumidor Final,Curitiba,PR,Sul
+19,Bruno Oliveira,B2C,Consumidor Final,Rio de Janeiro,RJ,Sudeste
+20,NexusCorp LTDA,B2B,Indústria,Florianópolis,SC,Sul
+21,CoreBiz S.A.,B2B,Financeiro,Manaus,AM,Norte
+22,OmniGroup Tech,B2B,Varejo,Manaus,AM,Norte
+23,Krypton Brasil,B2B,Financeiro,Belo Horizonte,MG,Sudeste
+24,Fernanda Pereira,B2C,Consumidor Final,Brasília,DF,Centro-Oeste
+25,AlphaMidia LTDA,B2B,Indústria,Curitiba,PR,Sul
+26,Juliana Gomes,B2C,Consumidor Final,Goiânia,GO,Centro-Oeste
+27,VanguardTec Brasil,B2B,Financeiro,Salvador,BA,Nordeste
+28,HorizontInvest S.A.,B2B,Tecnologia,Goiânia,GO,Centro-Oeste
+29,BlueOcean LTDA,B2B,Indústria,Rio de Janeiro,RJ,Sudeste
+30,InovaGlobal Tech,B2B,Saúde,Salvador,BA,Nordeste
+31,Juliana Lima,B2C,Consumidor Final,Brasília,DF,Centro-Oeste
+32,Starlight S.A.,B2B,Indústria,Recife,PE,Nordeste
+33,Juliana Ferreira,B2C,Consumidor Final,Manaus,AM,Norte
+34,VanguardTec LTDA,B2B,Saúde,Curitiba,PR,Sul
+35,Krypton Brasil,B2B,Educação,Fortaleza,CE,Nordeste
+36,Krypton S.A.,B2B,Indústria,Goiânia,GO,Centro-Oeste
+37,DataPulse LTDA,B2B,Financeiro,Recife,PE,Nordeste
+38,AlphaMidia S.A.,B2B,Educação,Manaus,AM,Norte
+39,TechSolutions S.A.,B2B,Varejo,Brasília,DF,Centro-Oeste
+40,TechSolutions LTDA,B2B,Educação,Belo Horizonte,MG,Sudeste
+41,Starlight Tech,B2B,Tecnologia,Campinas,SP,Sudeste
+42,Mariana Oliveira,B2C,Consumidor Final,Manaus,AM,Norte
+43,Mariana Rodrigues,B2C,Consumidor Final,Brasília,DF,Centro-Oeste
+44,Fernanda Souza,B2C,Consumidor Final,Salvador,BA,Nordeste
+45,Bruno Rodrigues,B2C,Consumidor Final,Manaus,AM,Norte
+46,BlueOcean Brasil,B2B,Saúde,Recife,PE,Nordeste
+47,Carlos Souza,B2C,Consumidor Final,Brasília,DF,Centro-Oeste
+48,OmniGroup S.A.,B2B,Educação,Campinas,SP,Sudeste
+49,Bruno Silva,B2C,Consumidor Final,Belo Horizonte,MG,Sudeste
+50,BlueOcean S.A.,B2B,Financeiro,Fortaleza,CE,Nordeste
+51,AgilPrax Brasil,B2B,Tecnologia,São Paulo,SP,Sudeste
+52,Juliana Pereira,B2C,Consumidor Final,Belo Horizonte,MG,Sudeste
+53,AlphaMidia Tech,B2B,Financeiro,Goiânia,GO,Centro-Oeste
+54,VanguardTec LTDA,B2B,Tecnologia,Manaus,AM,Norte
+55,VanguardTec Brasil,B2B,Saúde,Recife,PE,Nordeste
+56,AgilPrax S.A.,B2B,Indústria,Brasília,DF,Centro-Oeste
+57,Carlos Silva,B2C,Consumidor Final,Recife,PE,Nordeste
+58,OmniGroup S.A.,B2B,Financeiro,Fortaleza,CE,Nordeste
+59,DataPulse Tech,B2B,Financeiro,Belo Horizonte,MG,Sudeste
+60,NexusCorp Tech,B2B,Financeiro,Rio de Janeiro,RJ,Sudeste
+61,CoreBiz S.A.,B2B,Tecnologia,Brasília,DF,Centro-Oeste
+62,Ana Santos,B2C,Consumidor Final,Goiânia,GO,Centro-Oeste
+63,VanguardTec Tech,B2B,Saúde,Rio de Janeiro,RJ,Sudeste
+64,Krypton S.A.,B2B,Financeiro,Florianópolis,SC,Sul
+65,VanguardTec Brasil,B2B,Saúde,São Paulo,SP,Sudeste
+66,Starlight Tech,B2B,Financeiro,Florianópolis,SC,Sul
+67,PrimeLog S.A.,B2B,Educação,Curitiba,PR,Sul
+68,Ana Ferreira,B2C,Consumidor Final,Goiânia,GO,Centro-Oeste
+69,EcoVida Tech,B2B,Educação,São Paulo,SP,Sudeste
+70,Ana Lima,B2C,Consumidor Final,Rio de Janeiro,RJ,Sudeste
+71,InovaGlobal S.A.,B2B,Indústria,Rio de Janeiro,RJ,Sudeste
+72,InovaGlobal LTDA,B2B,Educação,Florianópolis,SC,Sul
+73,Carlos Alves,B2C,Consumidor Final,São Paulo,SP,Sudeste
+74,Lucas Rodrigues,B2C,Consumidor Final,Salvador,BA,Nordeste
+75,Starlight Brasil,B2B,Financeiro,Recife,PE,Nordeste
+76,AlphaMidia Brasil,B2B,Saúde,Florianópolis,SC,Sul
+77,Krypton S.A.,B2B,Tecnologia,Manaus,AM,Norte
+78,EcoVida S.A.,B2B,Tecnologia,Salvador,BA,Nordeste
+79,Juliana Oliveira,B2C,Consumidor Final,Belo Horizonte,MG,Sudeste
+80,Krypton LTDA,B2B,Varejo,Campinas,SP,Sudeste
+81,HorizontInvest Brasil,B2B,Educação,Rio de Janeiro,RJ,Sudeste
+82,Ana Lima,B2C,Consumidor Final,Goiânia,GO,Centro-Oeste
+83,InovaGlobal LTDA,B2B,Varejo,Recife,PE,Nordeste
+84,Starlight LTDA,B2B,Varejo,Campinas,SP,Sudeste
+85,PrimeLog Brasil,B2B,Financeiro,Salvador,BA,Nordeste
+86,Juliana Lima,B2C,Consumidor Final,Recife,PE,Nordeste
+87,Krypton S.A.,B2B,Tecnologia,Curitiba,PR,Sul
+88,Juliana Silva,B2C,Consumidor Final,Florianópolis,SC,Sul
+89,CoreBiz LTDA,B2B,Indústria,Porto Alegre,RS,Sul
+90,Starlight Tech,B2B,Educação,Rio de Janeiro,RJ,Sudeste
+91,Ana Santos,B2C,Consumidor Final,Florianópolis,SC,Sul
+92,Krypton LTDA,B2B,Educação,Fortaleza,CE,Nordeste
+93,EcoVida LTDA,B2B,Saúde,Porto Alegre,RS,Sul
+94,NexusCorp Brasil,B2B,Tecnologia,São Paulo,SP,Sudeste
+95,BlueOcean LTDA,B2B,Indústria,Belo Horizonte,MG,Sudeste
+96,CoreBiz Tech,B2B,Educação,Porto Alegre,RS,Sul
+97,Bruno Oliveira,B2C,Consumidor Final,Rio de Janeiro,RJ,Sudeste
+98,TechSolutions LTDA,B2B,Indústria,Florianópolis,SC,Sul
+99,Krypton Tech,B2B,Indústria,Manaus,AM,Norte
+100,Bruno Rodrigues,B2C,Consumidor Final,Manaus,AM,Norte
+101,Starlight S.A.,B2B,Saúde,Manaus,AM,Norte
+102,PrimeLog LTDA,B2B,Saúde,Brasília,DF,Centro-Oeste
+103,AgilPrax LTDA,B2B,Financeiro,Curitiba,PR,Sul
+104,PrimeLog Tech,B2B,Varejo,Recife,PE,Nordeste
+105,CoreBiz Brasil,B2B,Varejo,Campinas,SP,Sudeste
+106,Fernanda Lima,B2C,Consumidor Final,Goiânia,GO,Centro-Oeste
+107,InovaGlobal Brasil,B2B,Financeiro,São Paulo,SP,Sudeste
+108,Ana Santos,B2C,Consumidor Final,Curitiba,PR,Sul
+109,Lucas Ferreira,B2C,Consumidor Final,Florianópolis,SC,Sul
+110,DataPulse S.A.,B2B,Saúde,Salvador,BA,Nordeste
+111,Juliana Silva,B2C,Consumidor Final,Belo Horizonte,MG,Sudeste
+112,Ana Lima,B2C,Consumidor Final,Florianópolis,SC,Sul
+113,Bruno Ferreira,B2C,Consumidor Final,Recife,PE,Nordeste
+114,BlueOcean Brasil,B2B,Educação,Campinas,SP,Sudeste
+115,AgilPrax S.A.,B2B,Indústria,Recife,PE,Nordeste
+116,NexusCorp Tech,B2B,Varejo,Goiânia,GO,Centro-Oeste
+117,NexusCorp LTDA,B2B,Financeiro,Fortaleza,CE,Nordeste
+118,VanguardTec LTDA,B2B,Educação,Recife,PE,Nordeste
+119,Fernanda Lima,B2C,Consumidor Final,Curitiba,PR,Sul
+120,NexusCorp LTDA,B2B,Saúde,Curitiba,PR,Sul
+121,Lucas Pereira,B2C,Consumidor Final,Salvador,BA,Nordeste
+122,BlueOcean LTDA,B2B,Educação,Brasília,DF,Centro-Oeste
+123,Krypton LTDA,B2B,Indústria,Manaus,AM,Norte
+124,DataPulse Brasil,B2B,Tecnologia,Curitiba,PR,Sul
+125,NexusCorp LTDA,B2B,Financeiro,Recife,PE,Nordeste
+126,TechSolutions LTDA,B2B,Saúde,São Paulo,SP,Sudeste
+127,Carlos Pereira,B2C,Consumidor Final,Manaus,AM,Norte
+128,EcoVida LTDA,B2B,Indústria,Recife,PE,Nordeste
+129,Gabriel Alves,B2C,Consumidor Final,Florianópolis,SC,Sul
+130,BlueOcean S.A.,B2B,Tecnologia,Rio de Janeiro,RJ,Sudeste
+131,AlphaMidia Tech,B2B,Tecnologia,Belo Horizonte,MG,Sudeste
+132,Carlos Pereira,B2C,Consumidor Final,Belo Horizonte,MG,Sudeste
+133,HorizontInvest Brasil,B2B,Saúde,Manaus,AM,Norte
+134,Fernanda Lima,B2C,Consumidor Final,Fortaleza,CE,Nordeste
+135,Starlight Tech,B2B,Saúde,Rio de Janeiro,RJ,Sudeste
+136,PrimeLog Brasil,B2B,Educação,Manaus,AM,Norte
+137,PrimeLog Brasil,B2B,Saúde,Recife,PE,Nordeste
+138,NexusCorp LTDA,B2B,Varejo,Fortaleza,CE,Nordeste
+139,Krypton S.A.,B2B,Financeiro,Porto Alegre,RS,Sul
+140,VanguardTec LTDA,B2B,Indústria,Belo Horizonte,MG,Sudeste
+141,VanguardTec Tech,B2B,Varejo,Campinas,SP,Sudeste
+142,Fernanda Silva,B2C,Consumidor Final,Brasília,DF,Centro-Oeste
+143,VanguardTec S.A.,B2B,Educação,Florianópolis,SC,Sul
+144,TechSolutions Brasil,B2B,Varejo,Brasília,DF,Centro-Oeste
+145,DataPulse LTDA,B2B,Saúde,Florianópolis,SC,Sul
+146,VanguardTec Tech,B2B,Tecnologia,Curitiba,PR,Sul
+147,BlueOcean Tech,B2B,Indústria,Porto Alegre,RS,Sul
+148,Krypton LTDA,B2B,Educação,Brasília,DF,Centro-Oeste
+149,Fernanda Gomes,B2C,Consumidor Final,São Paulo,SP,Sudeste
+150,Ana Santos,B2C,Consumidor Final,Recife,PE,Nordeste

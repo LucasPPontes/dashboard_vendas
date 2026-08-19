@@ -1,0 +1,19 @@
+﻿id_produto,nome_produto,categoria,subcategoria,preco_tabela,custo_base
+1001,Notebook Pro 15,Eletrônicos,Computadores,4500.0,3100.0
+1002,Monitor UltraWide 34,Eletrônicos,Periféricos,2200.0,1450.0
+1003,Teclado Mecânico RGB,Eletrônicos,Acessórios,350.0,180.0
+1004,Mouse Ergonômico Sem Fio,Eletrônicos,Acessórios,220.0,110.0
+1005,Headset Noise Cancelling,Eletrônicos,Áudio,850.0,520.0
+1006,Webcam 4K Ultra,Eletrônicos,Periféricos,650.0,390.0
+1007,Cadeira Ergonômica Executive,Móveis,Escritório,1200.0,750.0
+1008,Mesa Com Regulagem de Altura,Móveis,Escritório,2800.0,1800.0
+1009,Estante Modular 5 Prateleiras,Móveis,Organização,550.0,320.0
+1010,Gaveteiro Volante com Chave,Móveis,Organização,420.0,240.0
+1011,Licença ERP Enterprise (Anual),Software & Licenças,Sistemas,12000.0,4000.0
+1012,Licença CRM Pro (Mensal),Software & Licenças,Sistemas,150.0,40.0
+1013,Pacote Cloud Backup 1TB,Software & Licenças,Serviços,300.0,80.0
+1014,Antivírus Business Suite,Software & Licenças,Segurança,280.0,90.0
+1015,Papel A4 Reciclado 500fls,Suprimentos,Papelaria,32.0,18.0
+1016,Toner Impressora Laser Black,Suprimentos,Impressão,280.0,150.0
+1017,Kit Organizador de Cabos,Suprimentos,Acessórios,45.0,15.0
+1018,Filtro de Linha 8 Tomadas,Suprimentos,Energia,95.0,45.0
